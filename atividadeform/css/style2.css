@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background: linear-gradient(90deg, #ff6853, #ffa252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+    height: VH;
+    border: 2px solid rgb(43, 38, 41);  
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 10px;
+    width: 50%;
+}
+
+

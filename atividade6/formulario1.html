@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Manuteção Academica </title>
+</head>
+<body>
+    <header>
+        <h3>SISTEMA DE GESTÃO ACADÊMICA</h3>
+    </header>
+    <main>
+        <section>
+            <b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b>
+            <form>
+                <label for="nome">Login:</label>
+                <input type="text" id="login" name="nome" value="login">
+                <br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <label for="select">Status:</label>
+                <select name="status" id="status">
+                    <option value="ativo">Ativo</option>
+                    <option value="inativo">Inativo</option>
+                </select>
+                <br>
+                <label for="tipo">Tipo:</label> 
+                <input type="radio" id="tecnico" name="tipo" value="tecnico">
+                <label for="tecnico">Técnico</label>
+                <input type="radio" id="professor" name="tipo" value="professor">
+                <label for="professor">Professor</label>
+                <input type="radio" id="aluno" name="tipo" value="aluno">
+                <label for="aluno">Aluno</label>
+                <br>
+                <label for="data">Data da Criação:</label>
+                <input type="date"  id="data" value="date">
+                <br>
+                <label for="perfil">Perfil:</label> 
+                <input type="radio" id="convidado" name="perfil" value="convidado">
+                <label for="tecnico">Convidado</label>
+                <input type="radio" id="administrador" name="perfil" value="administrador">
+                <label for="professor">administrador</label>
+                <br>
+                <label for="observacao">Observações:</label>
+                <input type="textarea" id="texto" name="observacao" value="digite aqui...">
+                <br>
+                <label for="modulo">Módulo:</label>
+                <input type="checkbox" name="modulo" id="checkbox">
+                <label for="modulo">Compras</label>
+                <input type="checkbox" name="modulo" id="checkbox">
+                <label for="modulo">Biblioteca</label>
+                <input type="checkbox" name="modulo" id="checkbox">
+                <label for="modulo">Acadêmico</label>
+                <br>
+                <input type="checkbox" name="modulo" id="checkbox">
+                <label for="modulo">Documentação</label>
+                <input type="checkbox" name="modulo" id="checkbox">
+                <label for="modulo">Recursos Humanos</label>
+                <br>
+                <button type="button">Enviar</button>
+                <button type="button">Limpar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

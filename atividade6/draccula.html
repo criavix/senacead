@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de vendas</title>
+</head>
+<body>
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <th><label for="nome">NOME</label></th>
+                    <th><label for="cpf">CPF</label></th>
+                    <th><label for="numeroid">RG</label></th>
+                </thead>
+                <tbody>
+                    <td><input type="text" id="name" name="nome"></td>
+                    <td><input type="number" id="numero" name="cpf"></td>
+                    <td><input type="number" id="identidade" name="numeroid"></td>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <th><label for="endereço">ENDEREÇO</label></th>
+                    <th><label for="bairro">BAIRRO</label></th>
+                    <th><label for="ssp">SSP</label></th>
+                </thead>
+                <tbody>
+                    <td><input type="text" id="logradouro" name="endereço"></td>
+                    <td><input type="text" id="setor" name="bairro"></td>
+                    <td>
+                        <select name="ssp" id="seleção"><option value="ativo">SELECIONE</option>
+                        </select>
+                    </td>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <th><label for="cidade">CIDADE</label></th>
+                    <th><label for="estado">ESTADO</label></th>
+                    <th><label for="cep">CEP</label></th>
+                    <th><label for="tele">TELEFONE</label></th>
+                    <th><label for="cel">CELULAR</label></th>
+                    <th><label for="nada"></label></th>
+                </thead>
+                <tbody>
+                    <td>
+                        <select name="cidade" id="municipio"><option value="municipio">SELECIONE</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="estado" id="municipio"><option value="ativo">SELECIONE</option>
+                        </select>
+                    </td>
+                    <td><input type="number" id="numerocep" name="cep"></td>
+                    <td><input type="number" id="numerotele" name="tele"></td>
+                    <td><input type="number" id="numerocel" name="cel"></td>
+                    <td><input type="text" id="nenhumafun" name="nada"></td>
+                </tbody>
+            </table>
+            <hr>
+            <table>
+                <thead>
+                    <th>BUSCAR NOME</th>
+                    <th>BUSCAR Nº SÉRIE</th>
+                </thead>
+                <tbody>
+                    <td><input type="text" id="setor" name="buscarnome"></td>
+                    <td><input type="number" id="setor" name="buscarnota"></td>
+                </tbody>
+            </table>
+            <hr>
+        </section>
+    </main>
+</body>
+</html>

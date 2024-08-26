@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Manuteção Academica </title>
+</head>
+<body>
+    <section>
+        <p>Cadastro Geral</p>
+        <section>
+            <p>Dados pessoais</p>
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="select">Profissão:</label><br>
+                <select name="select" id="status">
+                    <option value="ativo">Sua profissão</option>
+                    <option value="inativo">Atoa</option>
+                </select>
+        </section>
+        <section>
+            <p>Localização</p>
+            <label for="mail">E-mail:</label><br>
+            <input type="email" id="mail" name="email">
+            <br>
+            <label for="endereço">Rua:</label><br>
+            <input type="text" id="endereço" name="login">
+            <br>
+        </section>
+        <section>
+            <p>Faixa etária:</p>
+            <input type="radio" id="tecnico" name="tipo" value="tecnico">
+            <label for="tecnico">até 20 anos</label>
+            <input type="radio" id="professor" name="tipo" value="professor">
+            <label for="professor">mais de 40 até 50</label><br>
+            <input type="radio" id="aluno" name="tipo" value="aluno">
+            <label for="aluno">mais de 20 até 30 anos</label>
+            <input type="radio" id="aluno" name="tipo" value="aluno">
+            <label for="aluno">mais de 50 até 60 anos</label><br>
+            <input type="radio" id="aluno" name="tipo" value="aluno">
+            <label for="aluno">mais de 30 até 40 anos</label>
+            <input type="radio" id="aluno" name="tipo" value="aluno">
+            <label for="aluno">mais de 60 anos</label>
+        </section>
+        <section>
+            <p>Esportes que prática</p>
+            <input type="checkbox" name="modulo" id="checkbox">
+            <label for="modulo">Futebol de campo</label><br>
+            <input type="checkbox" name="modulo" id="checkbox">
+            <label for="modulo">Futebol de salão</label><br>
+            <input type="checkbox" name="modulo" id="checkbox">
+            <label for="modulo">Futebol society</label><br>
+            <input type="checkbox" name="modulo" id="checkbox">
+            <label for="modulo">Volley de quadra</label><br>
+            <input type="checkbox" name="modulo" id="checkbox">
+            <label for="modulo">Volley de praia</label><br>
+            <input type="checkbox" name="modulo" id="checkbox">
+            <label for="modulo">Natação em piscina</label><br>
+            <input type="checkbox" name="modulo" id="checkbox">
+            <label for="modulo">Natação em mar aberto</label><br>
+        </section>
+        <section>
+            <p>Comentário</p>
+            <label for="observacao">Mensagem:</label><br>
+                <input type="textarea" id="texto" name="observacao" value="digite aqui...">
+        </section>
+        <br>
+        <button type="button">Enviar</button>
+        <button type="button">Limpar</button>
+        
+    </section>
+</body>

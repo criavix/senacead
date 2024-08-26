@@ -1,0 +1,39 @@
+header{
+    background-color: rgb(20, 99, 20);
+    
+}
+
+main{
+    width: 85%;
+    float: right;
+    text-align: center;
+    
+    background-color: burlywood;
+    
+}
+aside{
+    width: 15%;
+    float: left;
+    
+    background-color: aqua;
+}
+aside>ul{
+    list-style: none;
+}
+section{
+    background-color: bisque;
+}
+
+figure{
+    width: 12%;
+    display: inline-block;
+}
+
+
+
+footer{
+    width: 100%;
+    float: inline-end;
+    background-color: rgb(20, 99, 20);
+
+}
